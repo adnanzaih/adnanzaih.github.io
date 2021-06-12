@@ -1,5 +1,14 @@
 /* Basic HTML Tags */
+body {
+  background-color: rgb(34,55,66);
+}
 
+.area-expertice{
+  margin: auto 30px auto 60px;
+}
+.h2-area {
+  margin-top: 30px;
+}
 
 /* Navigation Bar */
 
