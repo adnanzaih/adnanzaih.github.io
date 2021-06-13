@@ -3,6 +3,10 @@ body {
   background-color: rgb(34,55,66);
 }
 
+img {
+	margin-bottom: 0;
+}
+
 .area-expertice{
   padding: 30px;
 }
@@ -20,6 +24,12 @@ body {
 .middle-section {
   margin: auto;
   text-align: center;
+}
+
+.adnan {
+	border-radius: 50px;
+	width: 100px;
+	margin-bottom: 30px;
 }
 
 .sub-heading {
