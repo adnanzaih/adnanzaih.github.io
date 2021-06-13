@@ -60,3 +60,12 @@ img {
   margin: 0;
   text-align: center;
 }
+
+/* Course Pages */
+.sidebar {
+  text-align: left;
+}
+
+.main-body .lead {
+  padding-left: 60px;
+}
