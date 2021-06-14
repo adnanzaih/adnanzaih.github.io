@@ -10,6 +10,7 @@ img {
 .area-expertice{
   padding: 30px;
 }
+
 .h2-area {
   margin-top: 30px;
 }
@@ -62,10 +63,8 @@ img {
 }
 
 /* Course Pages */
-.sidebar {
-  text-align: left;
-}
 
-.main-body .lead {
+#main-body .lead {
   padding-left: 60px;
+	margin-top: 3rem;
 }
