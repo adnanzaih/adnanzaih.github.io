@@ -1,13 +1,13 @@
 /* Basic HTML Tags */
 body {
-  background-color: rgb(34,55,66);
+  background-color: rgb(34, 55, 66);
 }
 
 img {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
-.area-expertice{
+.area-expertice {
   padding: 30px;
 }
 
@@ -16,10 +16,11 @@ img {
 }
 
 /* Navigation Bar */
-
 #logo {
-  font-family: 'Raleway', sans-serif;  font-size: 3rem;  line-height: 1.5;
-  color: rgb(89,111,131);
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: rgb(89, 111, 131);
 }
 
 .container {
@@ -34,9 +35,9 @@ img {
 }
 
 .adnan {
-	border-radius: 50px;
-	width: 200px;
-	margin-bottom: 30px;
+  border-radius: 50px;
+  width: 200px;
+  margin-bottom: 30px;
 }
 
 .sub-heading {
@@ -54,25 +55,23 @@ img {
 }
 
 .medphys {
-  width:280px;
+  width: 280px;
 }
 
 .electrical {
-  width:280px;
+  width: 280px;
 }
 
 /* Footer */
-
 .footer {
   margin: 0;
   text-align: center;
 }
 
 /* Course Pages */
-
 #main-body .lead {
   padding-left: 60px;
-	margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 .carousel-inner {
@@ -80,12 +79,23 @@ img {
 }
 
 .card {
-    margin-top: 3%;
-    margin-bottom: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 .bullet-points {
-    font-size: 0.75rem;
-    padding: 3%;
+  font-size: 0.75rem;
+  padding: 3%;
 }
 
+/* Project */
+.project-main {
+  margin-top: 3%;
+  margin-bottom: 0;
+  padding: 3% 7%;
+  background-size: cover;
+}
+
+.project-main .lead {
+  color: #fff;
+}
