@@ -99,3 +99,7 @@ img {
 .project-main .lead {
   color: #fff;
 }
+
+.project-main .card {
+  opacity: 0.8;
+}
