@@ -120,18 +120,90 @@
       </div>
       <section id="title">
         <h3>PHYS1004: Electromagnetism & Wave Motion</h3>
-        <h5>Chapter 1 Electrostatics</h5>
+        <h5>Chapter 1 Damped Harmonic Oscillator</h5>
       </section>
       <section id="main-body">
-        <p class="lead">
-          When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
-          $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
-          <br />
-          $$ \iint\limits_D \, \mathrm{d} x\,\mathrm{d} y \quad \iiint\limits_E \, \mathrm{d} x\,\mathrm{d} y\,\mathrm{d}z $$
-          <br />
-          $$ \oint \! \nabla f \, \mathrm{d} t = 0 $$
-        </p>
-      </section>
+    <h6>1. Equation of Motion</h6>
+    <p>
+        The equation of motion for a damped harmonic oscillator is given by:
+    </p>
+    <div class="equation">
+        $$\frac{d^2 z}{dt^2} + 2\gamma \frac{dz}{dt} + \omega_0^2 z(t) = 0, \quad z(t) \in \mathbb{C}.$$
+    </div>
+    <p>
+        Here, \(z(t)\) is a complex-valued function of time, \(\gamma\) is the damping coefficient, and \(\omega_0\) is the natural frequency.
+    </p>
+
+    <h6>2. Solution to the Equation</h6>
+    <p>
+        The general solution to the equation of motion can be written as:
+    </p>
+    <div class="equation">
+        $$z(t) = C_1 e^{\omega_+ t} + C_2 e^{\omega_- t},$$
+    </div>
+    <p>
+        where the roots \(\omega_\pm\) are given by:
+    </p>
+    <div class="equation">
+        $$\omega_\pm = -\gamma \pm \sqrt{\gamma^2 - \omega_0^2}.$$
+    </div>
+    <p>
+        The constants \(C_1\) and \(C_2\) are determined by the initial conditions.
+    </p>
+
+    <h6>3. Underdamped Case (\(\gamma < \omega_0\))</h6>
+    <p>
+        In the underdamped case, the roots are complex:
+    </p>
+    <div class="equation">
+        $$\omega_\pm = -\gamma \pm i \sqrt{\omega_0^2 - \gamma^2}.$$
+    </div>
+    <p>
+        This leads to oscillatory motion:
+    </p>
+    <div class="equation">
+        $$z(t) = e^{-\gamma t} \left( A \cos(\omega t) + B \sin(\omega t) \right),$$
+    </div>
+    <p>
+        where \(\omega = \sqrt{\omega_0^2 - \gamma^2}\).
+    </p>
+
+    <h6>4. Overdamped Case (\(\gamma > \omega_0\))</h6>
+    <p>
+        In the overdamped case, the roots are real and distinct:
+    </p>
+    <div class="equation">
+        $$\omega_\pm = -\gamma \pm \sqrt{\gamma^2 - \omega_0^2}.$$
+    </div>
+    <p>
+        The motion is non-oscillatory and can be expressed as:
+    </p>
+    <div class="equation">
+        $$z(t) = C_1 e^{\omega_+ t} + C_2 e^{\omega_- t}.$$
+    </div>
+
+    <h6>5. Critically Damped Case (\(\gamma = \omega_0\))</h6>
+    <p>
+        In the critically damped case, the two roots coincide:
+    </p>
+    <div class="equation">
+        $$\omega_\pm = -\gamma.$$
+    </div>
+    <p>
+        The motion is described by:
+    </p>
+    <div class="equation">
+        $$z(t) = (C_1 + C_2 t) e^{-\gamma t}.$$
+    </div>
+
+    <h6>6. Energy Considerations</h6>
+    <p>
+        The total energy of the oscillator decreases exponentially in the underdamped case:
+    </p>
+    <div class="equation">
+        $$E(t) \propto e^{-2\gamma t}.$$
+    </div>
+	</section>
     </div>
     <!-- InstanceEndEditable -->
   <section>
